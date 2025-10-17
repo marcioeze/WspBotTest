@@ -9,7 +9,7 @@ app.use(express.json());
 
 // Set port and verify_token
 const port = process.env.PORT || 3000;
-const verifyToken = process.env.VERIFY_TOKEN;
+const verifyToken = 'EAASPLTqij1IBPoRaq15ZBSggAkfq4BadUU5Twb1xH2BPO4frkZCmbNYILvX9KZCQST6nQfQuT21hKpOm31BHzINps1R5mWLgJkr5LQvgj9ZCjxNsgOKn0EvKidyL6NZAGBgzkgW0gjfxEZCBZADCq3dChmoua0duD5WcpidEBZCCZA5oUGxuoIgROeFrsM8jNjq6WOKij6aTZCCtA6tnl1U2r06sjvutbQh4qBEJpmemU8EGa3IgZDZD'
 
 // Route for GET requests
 app.get('/', (req, res) => {
