@@ -16,5 +16,8 @@
     "url": "https://github.com/marcioeze/WspBotTest/issues"
   },
   "homepage": "https://github.com/marcioeze/WspBotTest#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
