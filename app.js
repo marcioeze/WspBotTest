@@ -4,7 +4,7 @@ const express = require('express');
 // Create an Express app
 const app = express();
 
-// Middleware to parse JSON bodies
+// Middleware to parse JSON bodiess
 app.use(express.json());
 
 // Set port and verify_token
